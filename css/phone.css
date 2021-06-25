@@ -1,0 +1,73 @@
+body::before{
+    content: "";
+    width: 100%;
+    height:105vh;
+    top:0px;
+    left:0px;
+    background: url('../bg1.jpg')center/cover no-repeat;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.09;
+}
+.logo {
+    display: block;
+    margin: auto;
+    width: 98px;
+    margin-top: 10px;
+    height: 28px;
+}
+h2 {
+    font-size: 7px;
+    font-family: cursive;
+    text-align: center;
+    color: #3d2d94;
+    margin-bottom: 6px;
+}
+.message{
+    background-color: #e6c8f1;
+    width: auto;
+    font-size: 8px;
+    padding: 6px;
+    margin: 9px 9px;
+    border: 2px solid rgb(120, 6, 131);
+    border-radius: 10px;
+
+}
+#send-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    height: 62vh;
+    border: 2px solid rgb(120, 6, 131);
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 33px;
+    margin-bottom: 23px;
+}
+#messageInp {
+    background-color: #e6c8f1;
+    width: 89%;
+    border: 2px solid rgb(120, 6, 131);
+    border-radius: 6px;
+    height: 25px;
+    outline: none;
+    font-family: cursive;
+}
+.btn{
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgb(120, 6, 131);
+    border-radius: 6px;
+    height: 30px;
+    font-size: 10px;
+    font-family: cursive;
+    background-color:#e6c8f1;
+    color: rgb(37, 5, 37);
+    margin-top: 10px;
+}

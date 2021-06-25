@@ -1,0 +1,11 @@
+body::before {
+    content: "";
+    width: 100%;
+    height: 105vh;
+    top: 0px;
+    left: 0px;
+    background: url(../bg1.jpg)center/cover no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.09;
+}

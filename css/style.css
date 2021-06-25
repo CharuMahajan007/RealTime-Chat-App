@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(white, rgb(157, 113, 230));
+}
+body::before{
+    content: "";
+    width: 100%;
+    height: 630px;
+    top:0px;
+    left:0px;
+    background: url('../bg1.jpg')center/cover no-repeat;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.09;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 160px;
+    margin-top: 20px;
+    height: 50px;
+}
+h2{
+    font-size: 14px;
+    font-family: cursive;
+    text-align: center;
+    color: #3d2d94;
+    margin-bottom: 6px;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid rgb(120, 6, 131);
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 33px;
+    margin-bottom: 23px;
+}
+.message{
+    background-color: #e6c8f1;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 9px;
+    border: 2px solid rgb(120, 6, 131);
+    border-radius: 10px;
+
+}
+.left{
+    float: left;
+    clear: both;
+    height: 16px;
+    font-family: cursive;
+    width: auto;
+}
+.right{
+    float: right;
+    clear: both;
+    height: 16px;
+    font-family: cursive;
+    width: auto;
+}
+#send-container{
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#messageInp{
+    background-color: #e6c8f1;
+    width: 72%;
+    border: 2px solid rgb(120, 6, 131);
+    border-radius: 6px;
+    height: 25px;
+    outline: none;
+    font-family: cursive;
+    
+}
+.btn{
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgb(120, 6, 131);
+    border-radius: 6px;
+    height: 34px;
+    font-size: 15px;
+    font-family: cursive;
+    background-color:#e6c8f1;
+    color: rgb(37, 5, 37);
+}
